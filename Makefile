@@ -1,6 +1,5 @@
 CONTAINER_NAME=ts_template
 
-.PHONY: build
 build:
 	@docker compose run --rm $(CONTAINER_NAME) npm run build
 

@@ -19,5 +19,12 @@
     "ignorePatterns": [
         "node_modules/**/*",
         "dist/**/*"
-    ]
+    ],
+    "rules": {
+        "@typescript-eslint/space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "no-unreachable": "warn"
+    }
 }

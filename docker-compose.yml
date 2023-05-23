@@ -5,5 +5,6 @@ services:
     image: "node:18-alpine"
     container_name: "ts_template"
     working_dir: "/usr/src/app"
+    user: 1000:1000
     volumes:
       - ./:/usr/src/app:rw,Z
